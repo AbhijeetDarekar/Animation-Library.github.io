@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Library</title>
+
+    <!-- AOS link -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slider{border: 1px solid;
+            margin:160px;
+            padding:40px ;
+            display: flexbox;
+            font-display: centre;
+            text-align: center;
+            height:55vh ;
+            width:70vw;
+            border-radius:15px ;
+            box-shadow:15px 15px 25px rgb(51, 51, 51) ;
+            color: #ffffff;
+
+
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="slider" data-aos="slide-right"  style="background-color:rgb(255, 0, 0) ;">
+            <h1>This Is Animated Div.</h1>
+            <h1>Slide 1</h1>
+        </div>
+
+        <div class="slider" data-aos="slide-left" style="background-color:rgb(227, 220, 16) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 2</h1>
+        </div>
+
+        <div class="slider"data-aos="flip-left" style="background-color:rgb(0, 110, 255) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 3</h1>
+        </div>
+
+        <div class="slider" data-aos="flip-right" style="background-color:rgb(210, 22, 220) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 4</h1>
+        </div>
+
+        <div class="slider"data-aos="zoom-in" style="background-color:rgb(12, 252, 76) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 5</h1>
+        </div>
+
+        <div class="slider"data-aos="zoom-out" style="background-color:rgb(10, 10, 242) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 6</h1>
+        </div>
+
+        <div class="slider"data-aos="zoom-in-right" style="background-color:rgb(238, 16, 141) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 7</h1>
+        </div>
+
+        <div class="slider"data-aos="flip-up" style="background-color:rgb(17, 238, 246) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 8</h1>
+        </div>
+
+        <div class="slider"data-aos="flip-up" style="background-color:rgb(250, 87, 17) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 9</h1>
+        </div>
+
+        <div class="slider"data-aos="flip-up" style="background-color:rgb(236, 205, 0) ;">
+            <h1> This Is Animated Div. </h1>
+            <h1>Slide 10</h1>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+    <script>
+      AOS.init({
+        duration: 2000,
+        delay: 1,
+        
+      });
+    </script>
+
+</body>
+
+</html>
